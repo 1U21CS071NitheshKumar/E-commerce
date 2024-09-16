@@ -1,0 +1,425 @@
+
+.pro{
+    margin-left: 500px;
+    text-decoration-line: underline;
+    animation-name: example; 
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {color:#65230b;}
+    to {color: #da5f33;}
+  }
+
+.image{
+    width: 100% !important;
+    height: 450px !important ;
+}
+.d1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.d2{
+    font-size: 20px;
+}
+.d3{
+    margin-left: 40px ;
+    font-size: 20px;
+}
+.bu{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+}
+.mo{
+    color: red;
+}
+.button {
+  border: none;
+    margin-left: 150px;
+    --width: 250px;
+    --height:45px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #F7CA00;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.5em;
+    font-family: "Arial";
+    transition: background 0.7s;
+    font-size: 20px;
+  }
+  
+  .button::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: var(--tooltip-width);
+    height: var(--tooltip-height);
+    background-color: #555;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: 0.25em;
+    line-height: var(--tooltip-height);
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+    left: calc(50% - var(--tooltip-width) / 2);
+  }
+  
+  .button::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #555;
+    left: calc(50% - 10px);
+    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+  }
+  
+  .button::after,
+  .button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-wrapper,
+  .text,
+  .icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+  }
+  
+  .text {
+    top: 0;
+  }
+  
+  .text,
+  .icon {
+    transition: top 0.5s;
+  }
+  
+  .icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+  }
+ 
+  .button:hover {
+    background:orangered;
+  }
+  
+  .button:hover .text {
+    top: -100%;
+  }
+  
+  .button:hover .icon {
+    top: 0;
+  }
+  
+  @media screen and (max-width:780px){
+    .pro{
+      margin-left: 260px;
+      text-decoration-line: underline;
+      animation-name: example; 
+      animation-duration: 5s;
+     animation-iteration-count: infinite;
+     font-size: 28px;
+  }
+  @keyframes example {
+      from {color:#65230b;}
+      to {color: #da5f33;}
+    }
+  
+  .image{
+      width: 93% !important;
+      height: 300px !important ;
+  }
+  .d1{
+      font-size: 17px;
+      font-weight: 500;
+  }
+  .d2{
+      font-size: 15px;
+  }
+  .d3{
+      margin-left: 40px ;
+      font-size: 15px;
+  }
+  .bu{
+      margin-left: 150px;
+      margin-top: 20px;
+      width: 50%;
+      height: 50px;
+  }
+  .mo{
+      color: red;
+  }
+  .button {
+    border: none;
+      margin-left: 100px;
+      --width: 200px;
+      --height:35px;
+      --tooltip-height: 35px;
+      --tooltip-width: 90px;
+      --gap-between-tooltip-to-button: 18px;
+      --button-color: #F7CA00;
+      --tooltip-color: #fff;
+      width: var(--width);
+      height: var(--height);
+      background: var(--button-color);
+      position: relative;
+      text-align: center;
+      border-radius: 0.5em;
+      font-family: "Arial";
+      transition: background 0.7s;
+      font-size: 18px;
+    }
+    
+    .button::before {
+      position: absolute;
+      content: attr(data-tooltip);
+      width: var(--tooltip-width);
+      height: var(--tooltip-height);
+      background-color: #555;
+      font-size: 0.9rem;
+      color: #fff;
+      border-radius: 0.25em;
+      line-height: var(--tooltip-height);
+      bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+      left: calc(50% - var(--tooltip-width) / 2);
+    }
+    
+    .button::after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-top-color: #555;
+      left: calc(50% - 10px);
+      bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+    }
+    
+    .button::after,
+    .button::before {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.5s;
+    }
+    
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .button-wrapper,
+    .text,
+    .icon {
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      color: #fff;
+    }
+    
+    .text {
+      top: 0;
+    }
+    
+    .text,
+    .icon {
+      transition: top 0.5s;
+    }
+    
+    .icon {
+      color: #fff;
+      top: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+    }
+   
+    .button:hover {
+      background:orangered;
+    }
+    
+    .button:hover .text {
+      top: -100%;
+    }
+    
+    .button:hover .icon {
+      top: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width:412px){
+
+    .z{
+      width: 100%;
+    }
+    .pro{
+      margin-left: 116px;
+      text-decoration-line: underline;
+      animation-name: example; 
+      animation-duration: 5s;
+     animation-iteration-count: infinite;
+     font-size: 22px;
+  }
+  @keyframes example {
+      from {color:#65230b;}
+      to {color: #da5f33;}
+    }
+  
+  .image{
+      width: 70% !important;
+      height: 213px !important ;
+      margin-left: 20px;
+  }
+  .d1{
+    margin-top: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 60px;
+  }
+  .d2{
+      font-size: 12px;
+  }
+  .d3{
+      margin-left: 40px ;
+      font-size: 15px;
+  }
+  .bu{
+      margin-left: 150px;
+      margin-top: 20px;
+      width: 50%;
+      height: 50px;
+  }
+  .mo{
+      color: red;
+  }
+  .button {
+    border: none;
+      margin-left: 57px;
+      --width: 200px;
+      --height:26px;
+      --tooltip-height: 35px;
+      --tooltip-width: 90px;
+      --gap-between-tooltip-to-button: 18px;
+      --button-color: #F7CA00;
+      --tooltip-color: #fff;
+      width: var(--width);
+      height: var(--height);
+      background: var(--button-color);
+      position: relative;
+      text-align: center;
+      border-radius: 0.5em;
+      font-family: "Arial";
+      transition: background 0.7s;
+      font-size: 18px;
+    }
+    
+    .button::before {
+      position: absolute;
+      content: attr(data-tooltip);
+      width: var(--tooltip-width);
+      height: var(--tooltip-height);
+      background-color: #555;
+      font-size: 0.9rem;
+      color: #fff;
+      border-radius: 0.25em;
+      line-height: var(--tooltip-height);
+      bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+      left: calc(50% - var(--tooltip-width) / 2);
+    }
+    
+    .button::after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-top-color: #555;
+      left: calc(50% - 10px);
+      bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+    }
+    
+    .button::after,
+    .button::before {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.5s;
+    }
+    
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .button-wrapper,
+    .text,
+    .icon {
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      color: #fff;
+    }
+    
+    .text {
+      top: 0;
+    }
+    
+    .text,
+    .icon {
+      transition: top 0.5s;
+    }
+    
+    .icon {
+      color: #fff;
+      top: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+    }
+   
+    .button:hover {
+      background:orangered;
+    }
+    
+    .button:hover .text {
+      top: -100%;
+    }
+    
+    .button:hover .icon {
+      top: 0;
+    }
+  }
+  
+  
+  

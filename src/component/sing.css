@@ -1,0 +1,176 @@
+.sing1 {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.sing1:hover {
+    box-shadow: 5px 5px 5px 5px orange;
+}
+
+.sing2 {
+    background-color: rgb(38, 36, 36);
+}
+
+.sing3 {
+    margin-top: 70px;
+    margin-left: 35px;
+    color: orangered;
+}
+
+.sing4 {
+    margin-top: 45px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: orangered;
+}
+
+.sing5 {
+    margin-top: 45px;
+    width: 93%;
+    height: 210px;
+    color: orangered;
+}
+
+.sing6 {
+    margin-top: 55px;
+}
+.sing7{
+    margin-left:77px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 7px;
+    width: 50%;
+}
+.sing7:hover{
+    background-color: rgb(171, 50, 6);
+}
+
+
+@media only screen and (max-width:780px) {
+    .sing1 {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        box-shadow: 2px 2px 2px 2px;
+    }
+    .sing1:hover {
+        box-shadow: 5px 5px 5px 5px orange;
+    }
+    .sing2 {
+        background-color: rgb(38, 36, 36);
+    }
+    
+    .sing3 {
+        margin-top: 70px;
+        margin-left: 35px;
+        color: orangered;
+    }
+    
+    .sing4 {
+        margin-top: 45px;
+        margin-left: 35px;
+        font-size: 20px;
+        color: orangered;
+    }
+    
+    .sing5 {
+        margin-top: 45px;
+        width: 93%;
+        height: 210px;
+        color: orangered;
+    }
+    
+    .sing6 {
+        margin-top: 55px;
+    }
+    .sing7{
+        margin-left:77px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        background-color: orangered;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 7px;
+        width: 50%;
+    }
+    .sing7:hover{
+        background-color: rgb(171, 50, 6);
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:412px) {
+    .sing1 {
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 100px;
+        box-shadow: 2px 2px 2px 2px;
+    }
+    .sing1:hover {
+        box-shadow: 5px 5px 5px 5px orange;
+
+    }
+    .sing2 {
+        background-color: rgb(38, 36, 36);
+        margin-left: 12px;
+        width: 95%;
+    }
+    
+    .sing3 {
+        margin-top: 70px;
+        margin-left: 35px;
+        color: orangered;
+    }
+    
+    .sing4 {
+        margin-top: 45px;
+        margin-left: 35px;
+        font-size: 20px;
+        color: orangered;
+    }
+    
+    .sing5 {
+        margin-top: 45px;
+        width: 93%;
+        height: 210px;
+        color: orangered;
+    }
+    
+    .sing6 {
+        margin-top: 55px;
+    }
+    .sing7{
+        margin-left:77px;
+        margin-top: 23px;
+        margin-bottom: 20px;
+        background-color: orangered;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: 700;
+        font-size: 13px;
+        padding: 7px;
+        width: 50%;
+    }
+    .sing7:hover{
+        background-color: rgb(171, 50, 6);
+    }
+    
+    
+}

@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+.event{
+  margin-left: 500px;
+}
+.z{
+  width: 100%;
+}
+.otp{
+  margin-left: 500px;
+  color:rgb(0, 0, 0);
+}
+.a1{
+  margin-bottom: 10px;
+}
+.emi{
+  margin-left: 500px;
+  color:rgb(0, 0, 0);
+}
+/* .emi1{
+  border: 100px;
+} */
+.box{
+  width: 25%;
+  height: 180px;
+  background-color: rgb(182, 59, 59);
+  border: 2px red;
+  border-radius: 10px;
+  box-shadow: 2px,2px;
+}
+.title{
+  width: 55%;
+}
+.bor{
+ margin-left: 400px;
+ animation-name: example;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ font-family: "Abril Fatface", serif;
+}
+@keyframes example {
+ from {color:#65230b;}
+ to {color: #da5f33;}
+}
+.a1{
+ margin-left: 30px !important;
+}
+.i{
+  width:50%;
+  height: 200px;
+  margin-left: 50px;
+}
+.i1{
+  width: 235px !important;
+  height: 250px !important;
+  margin-left: 10px !important;
+}
+.i2{
+  width: 235px !important;
+  height: 250px !important;
+  margin-left: 37px !important;
+}
+.i3{
+  width: 235px !important;
+  height: 250px !important;
+  margin-left: 40px !important;
+}
+.i4{
+ width: 220px !important;
+ height: 235px !important;
+ margin-left: 40px !important;
+}
+.i6{
+ margin-top: 5px;
+ width: 220px !important;
+ height: 235px !important;
+ margin-left: 40px !important;
+}
+.i7{
+ margin-top: 5px;
+ width: 220px !important;
+ height: 235px !important;
+ margin-left: 40px !important;
+ margin-top: 10px !important;
+}
+.bu1{
+  margin-left: 60px !important;
+}.bu2{
+  margin-left: 107px !important;
+}
+.bu3{
+ margin-top: 23px;
+  margin-left: 100px !important;
+}
+.bu4{
+ margin-top: 12px !important;
+  margin-left: 70px !important;
+}
+.bu5{
+ margin-top: 25px !important;
+  margin-left: 100px !important;
+}
+.bu6{
+ margin-top: 20px !important;
+  margin-left: 100px !important;
+}
+.bu7{
+ margin-top: -4px !important;
+ margin-left: 100px !important;
+}
+.bu8{
+  margin-top: -4px !important;
+  margin-left: 100px !important;
+ }
+ .bu9{
+  margin-top: -4px !important;
+  margin-left: 100px !important;
+ }
+ .bu10{
+  margin-top: -37px !important;
+  margin-left: 100px !important;
+ }.bu11{
+  margin-top: -4px !important;
+  margin-left: 100px !important;
+ }
+ .bu12{
+  margin-top: 10px !important;
+  margin-left: 100px !important;
+ }
+ .bu13{
+  margin-top: 10px !important;
+  margin-left: 73px !important;
+ }
+ .bu14{
+  margin-top: 10px !important;
+  margin-left: 87px !important;
+ }
+ 
+.t1{
+ margin-left: 55px;
+}
+.t2{
+ margin-left: 30px;
+}
+.card1{
+ box-shadow: 2px 2px 2px ;
+ 
+}
+.img1{
+  background-color: #F1F2F4;
+}
+
+
+@media screen and (max-width:780px){
+  .event{
+    margin-left: 500px;
+  }
+  .z{
+    width: 100%;
+  }
+  .otp{
+    margin-left: 500px;
+    color:rgb(0, 0, 0);
+  }
+  .a1{
+    margin-bottom: 10px;
+  }
+  .emi{
+    margin-left: 500px;
+    color:rgb(0, 0, 0);
+  }
+  /* .emi1{
+    border: 100px;
+  } */
+  .box{
+    width: 25%;
+    height: 180px;
+    background-color: rgb(182, 59, 59);
+    border: 2px red;
+    border-radius: 10px;
+    box-shadow: 2px,2px;
+  }
+  .title{
+    width: 55%;
+  }
+  .bor{
+    margin-top: 10px !important;
+   margin-left: 240px !important;
+   animation-name: example !important;
+   animation-duration: 5s !important;
+   animation-iteration-count: infinite !important;
+   font-family: "Abril Fatface", serif !important;
+  }
+  @keyframes example {
+   from {color:#65230b;}
+   to {color: #da5f33;}
+  }
+  .a1{
+   margin-left: 30px !important;
+  }
+  .i{
+    width:50%;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .i1{
+    width: 235px !important;
+    height: 250px !important;
+    margin-left: 10px !important;
+  }
+  .i2{
+    width: 235px !important;
+    height: 250px !important;
+    margin-left: 37px !important;
+  }
+  .i3{
+    width: 235px !important;
+    height: 250px !important;
+    margin-left: 40px !important;
+  }
+  .i4{
+   width: 220px !important;
+   height: 235px !important;
+   margin-left: 40px !important;
+  }
+  .i6{
+   margin-top: 5px;
+   width: 220px !important;
+   height: 235px !important;
+   margin-left: 40px !important;
+  }
+  .i7{
+   margin-top: 5px;
+   width: 220px !important;
+   height: 235px !important;
+   margin-left: 40px !important;
+   margin-top: 10px !important;
+  }
+  .bu1{
+    margin-left: 60px !important;
+  }.bu2{
+    margin-left: 107px !important;
+  }
+  .bu3{
+   margin-top: 23px;
+    margin-left: 100px !important;
+  }
+  .bu4{
+   margin-top: 12px !important;
+    margin-left: 70px !important;
+  }
+  .bu5{
+   margin-top: 25px !important;
+    margin-left: 100px !important;
+  }
+  .bu6{
+   margin-top: 4px !important;
+    margin-left: 100px !important;
+  }
+  .bu7{
+   margin-top: -33px !important;
+   margin-left: 100px !important;
+  }
+  .bu8{
+    margin-top: -4px !important;
+    margin-left: 100px !important;
+   }
+   .bu9{
+    margin-top: -4px !important;
+    margin-left: 100px !important;
+   }
+   .bu10{
+    margin-top: -37px !important;
+    margin-left: 100px !important;
+   }.bu11{
+    margin-top: -4px !important;
+    margin-left: 100px !important;
+   }
+   .bu12{
+    margin-top: -6px !important;
+    margin-left: 100px !important;
+   }
+   .bu13{
+    margin-top: 10px !important;
+    margin-left: 73px !important;
+   }
+   .bu14{
+    margin-top: 0px !important;
+    margin-left: 87px !important;
+   }
+   
+  .t1{
+   margin-left: 55px;
+  }
+  .t2{
+   margin-left: 30px;
+  }
+  .ocard1{
+   box-shadow: 2px 2px 2px ;
+   margin-left: 20px;
+   
+  }
+  .ocard2{
+    margin-top: -379px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .ocard3{
+    margin-top: 10px;
+    width: 18rem !important;
+  }
+  .ocard4{
+    margin-top: -418px;
+    margin-left: 367px;
+  }
+  .ocard5{
+    margin-top: -22px;
+    width: 18rem !important;
+  }
+  .ocard6{
+    margin-top: -386px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .ocard7{
+    margin-top: -22px;
+    width: 18rem !important;
+  }
+  .ocard8{
+    margin-top: -386px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .ocard9{
+    margin-top: 10px;
+    width: 18rem !important;
+  }
+  .ocard10{
+    margin-top: -418px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .ocard11{
+    margin-top: -25px;
+    width: 18rem !important;
+  }
+  .ocard12{
+    margin-top: -384px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .ocard13{
+    margin-top: -25px;
+    width: 18rem !important;
+  }
+  .ocard14{
+    margin-top: -384px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .ocard15{
+    margin-top: 9px;
+    width: 18rem !important;
+  }
+  .ocard16{
+    margin-top: -393px;
+    margin-left: 367px;
+    width: 18rem !important;
+  }
+  .img1{
+    background-color: #F1F2F4;
+  }
+
+}
+
+@media screen and (max-width:412px){
+  .event{
+    margin-left: 500px;
+  }
+  .z{
+    width: 100%;
+  }
+  .otp{
+    margin-left: 500px;
+    color:rgb(0, 0, 0);
+  }
+  .a1{
+    margin-bottom: 10px;
+  }
+  .emi{
+    margin-left: 500px;
+    color:rgb(0, 0, 0);
+  }
+  /* .emi1{
+    border: 100px;
+  } */
+  .box{
+    width: 25%;
+    height: 180px;
+    background-color: rgb(182, 59, 59);
+    border: 2px red;
+    border-radius: 10px;
+    box-shadow: 2px,2px;
+  }
+  .title{
+    width: 55%;
+  }
+  .bor{
+    margin-top: 10px ;
+   margin-left: 100px ;
+   animation-name: example ;
+   animation-duration: 5s ;
+   animation-iteration-count: infinite ;
+   font-family: "Abril Fatface", serif ;
+  }
+  @keyframes example {
+   from {color:#65230b;}
+   to {color: #da5f33;}
+  }
+  .a1{
+   margin-left: 30px ;
+  }
+  .i{
+    width:50%;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .i1{
+    width: 235px !important;
+    height: 250px !important;
+    margin-left: 10px !important;
+  }
+  .i2{
+    width: 235px !important;
+    height: 250px !important;
+    margin-left: 37px !important;
+  }
+  .i3{
+    width: 235px !important;
+    height: 250px !important;
+    margin-left: 40px !important;
+  }
+  .i4{
+   width: 220px !important;
+   height: 235px !important;
+   margin-left: 40px !important;
+  }
+  .i6{
+   margin-top: 5px;
+   width: 220px !important;
+   height: 235px !important;
+   margin-left: 40px !important;
+  }
+  .i7{
+   margin-top: 5px;
+   width: 220px !important;
+   height: 235px !important;
+   margin-left: 40px !important;
+   margin-top: 10px !important;
+  }
+  .bu1{
+    margin-left: 60px !important;
+  }.bu2{
+    margin-left: 107px !important;
+  }
+  .bu3{
+   margin-top: 23px;
+    margin-left: 100px !important;
+  }
+  .bu4{
+   margin-top: 12px !important;
+    margin-left: 70px !important;
+  }
+  .bu5{
+   margin-top: 25px !important;
+    margin-left: 100px !important;
+  }
+  .bu6{
+   margin-top: 4px !important;
+    margin-left: 100px !important;
+  }
+  .bu7{
+   margin-top: -33px !important;
+   margin-left: 100px !important;
+  }
+  .bu8{
+    margin-top: -4px !important;
+    margin-left: 100px !important;
+   }
+   .bu9{
+    margin-top: -4px !important;
+    margin-left: 100px !important;
+   }
+   .bu10{
+    margin-top: -37px !important;
+    margin-left: 100px !important;
+   }.bu11{
+    margin-top: -4px !important;
+    margin-left: 100px !important;
+   }
+   .bu12{
+    margin-top: -6px !important;
+    margin-left: 100px !important;
+   }
+   .bu13{
+    margin-top: 10px !important;
+    margin-left: 73px !important;
+   }
+   .bu14{
+    margin-top: 0px !important;
+    margin-left: 87px !important;
+   }
+   
+  .t1{
+   margin-left: 55px;
+  }
+  .t2{
+   margin-left: 30px;
+  }
+  .ocard1{
+   box-shadow: 2px 2px 2px ;
+   margin-left: 20px;
+   
+  }
+  .ocard2{
+    margin-top: 30px;
+    margin-left: 19px;
+    width: 18rem !important;
+  }
+  .ocard3{
+    margin-top: 10px;
+    width: 18rem !important;
+  }
+  .ocard4{
+    margin-top: -12px;
+    margin-left: 21px;
+  }
+  .ocard5{
+    margin-top: 20px;
+    width: 18rem !important;
+  }
+  .ocard6{
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 18rem !important;
+  }
+  .ocard7{
+    margin-top: -22px;
+    width: 18rem !important;
+  }
+  .ocard8{
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 18rem !important;
+  }
+  .ocard9{
+    margin-top: 23px;
+    width: 18rem !important;
+  }
+  .ocard10{
+    margin-top: -12px;
+    margin-left: 24px;
+    width: 18rem !important;
+  }
+  .ocard11{
+    margin-top: 22px;
+    width: 18rem !important;
+  }
+  .ocard12{
+    margin-top: -20px;
+    margin-left: 24px;
+    width: 18rem !important;
+  }
+  .ocard13{
+    margin-top: -25px;
+    width: 18rem !important;
+  }
+  .ocard14{
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 18rem !important;
+  }
+  .ocard15{
+    margin-top: 9px;
+    width: 18rem !important;
+  }
+  .ocard16{
+    margin-top: 21px;
+    margin-left: 24px;
+    width: 18rem !important;
+  }
+  .ocard17{
+    margin-top: 20px;
+  }
+  .img1{
+    background-color: #F1F2F4;
+  }
+}
